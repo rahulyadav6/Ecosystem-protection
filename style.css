@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+  color: #ffffff;
+  background-color: green;
+}
+body{
+    background-color: whitesmoke;
+    /* font-family: 'Merriweather', serif;  */
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #9DF1DF;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+.brand:hover{
+    color: #f11d32;
+}
+
+.logo{
+  text-decoration: none;
+  font-size: larger;
+  color:#f11d32 ;
+}
+
+.logo:hover{
+  color: #2be754a8;
+}
+
+.content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+    height: 200px;
+    width: 30%;
+    padding-left: 60px;
+    padding-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+.links{
+    display: flex;
+    padding-right: 60px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 20px;
+    color: #9DF1DF;
+}
+
+.links a:hover{
+    color: #f11d32;
+    text-decoration: underline;
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+
+
+/* animated text */
+marquee{
+    background-color: green;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 80px;
+    padding-top: 18px;
+
+}
+
+.mission{
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 65vw;
+  flex-direction: row-reverse;
+  background-color: #d5f3cd;
+  padding: 20px;
+}
+
+
+.mission:hover{
+  /* transform: scale(1.3);
+  transform: 5s; */
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.left{
+  flex: 1;
+}
+.right{
+  flex: 3;
+}
+
+.right p{
+  line-height: 1.5;
+  text-align: left;
+  color: #299e31;
+}
+
+.left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.mission h2{
+  /* display: inline; */
+  color: #238a26;
+  margin: 5px;
+  text-align: center;
+}
+
+
+.news{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: flex-end;
+  font-size: larger;
+  justify-content: space-evenly;
+  /* flex-direction: row-reverse; */
+  
+}
+.news a{
+  text-decoration: none;
+  color: green;
+}
+
+.news a:hover{
+  color: rgb(125, 16, 16);
+}
+body{
+    text-align: center;
+}
+
+
+.footer{
+
+    margin-top: 50px;
+    padding-top: 30px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.footer a img{
+    margin: 11px;
+    height: 25px;
+}
+
+.facebook{
+    height: 40px;
+    width: 4%;
+    background-color: white;
+    margin-left: 500px;
+}
+.insta{
+    height: 40px;
+    width: 4%;
+    background-color: white;
+    margin-left: 550px;
+
+}
+.facebook:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* contact us css */
+
+  
+  .name{
+    margin-left: 20px;
+  }
+  .name:focus{
+    color: white;
+    background-color: green;
+  }
+  .address{
+    margin-left: 3px;
+  }
+  .address:focus{
+    color: white;
+    background-color: green;
+  }
+  .phone{
+    margin-left: 85px;
+  }
+  .phone:focus{
+    color: white;
+    background-color: green;
+
+  }
+  .email{
+    margin-left: 86px;
+  }
+
+  .email:focus{
+    color: white;
+    background-color: green;
+
+  }
+  .submit:hover{
+    background-color: green;
+    transition: 0.9s;
+
+  }
+  form{
+    margin-top: 50px;
+
+  }
+
+
+  .form{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    width: 40%;
+    margin: 50px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.form:hover{
+  transform: scale(1.1);
+    transition: 1s;
+    background-color: #4e6f50;
+}
+
+
+
+
+  /* css  for about us page */
+
+  .parent{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 450px;
+    width: 70vw;
+    margin: 2rem auto;
+    /* width: 50%; */
+    background-color: rgba(199, 207, 192, 0.685);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .child1{
+    height: 12rem;
+    width: 12rem;
+    transition: transform 0.5s ease;
+    /* background-color: #fff; */
+  }
+  .child1 img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+  
+  .child1:hover{
+    transform: scale(1.3);
+  }
+  .child2{
+    height: 12rem;
+    width: 12rem;
+    /* background-color: #120c0c; */
+    transition: transform 0.5s ease;
+
+  }
+  .child2 img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+
+  .child2:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  .child3{
+    height: 12rem;
+    width: 12rem;
+    /* background-color: #106316; */
+    transition: transform 0.5s ease;
+  }
+
+  .child3 img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+  
+  .child3:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+
+  .para{
+    color: #ffffff;
+    background-color: #238a26;
+  }
+
+
+  
+
+
+
+
+
+
+
+  /* css for blogs page */
+
+
+  .main-blog{
+    /* justify-content: center; */
+    text-align: justify;
+    justify-content: space-evenly;
+  }
+
+  .blog1{
+    width: 70vw;
+    margin: 2rem 13rem;  
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* background-color: rgb(224, 201, 201); */
+    
+  }
+
+  .blog1:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    background-color: rgb(224, 201, 201);
+  }
+  .blog1 p{
+    font-size: larger;
+    color: green; 
+    padding: 20px; 
+  }
+
+  .blog1 h1{
+    background-color: green;
+    color: white;
+    padding-left: 1.3rem;
+  }
+  .blog2:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    background-color: rgb(224, 222, 201);
+  }
+
+  .blog2{
+    width: 70vw;
+    margin: 2rem 13rem;  
+    /* display: flex; */
+    justify-content: space-evenly;
+  }
+
+  
+  .blog2 h1{
+    background-color: green;
+    color: white;
+    padding-left: 1.3rem;
+
+  }
+
+  .blog2 p{
+    font-size: larger;
+    color: green;  
+  }
+
+
+
+
+  /* blog3 */
+  .blog3{
+    width: 70vw;
+    margin: 2rem 13rem;  
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* background-color: rgb(224, 201, 201); */
+    
+  }
+
+  .blog3:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    background-color: rgb(201, 212, 224);
+  }
+  .blog3 p{
+    font-size: larger;
+    color: green; 
+    padding: 20px; 
+  }
+
+  .blog3 h1{
+    background-color: green;
+    color: white;
+    padding-left: 1.3rem;
+  }
+
+
+  .meet{
+    margin: 2.5rem auto;
+    background-color: aqua;
+    width: 300px;
+    height: 80px;
+    padding: 20px;
+    color: rgb(17, 8, 185);
+  }
+
